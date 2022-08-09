@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Circuit_SA1_tb2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Circuit_SA1_tb2" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000001fs"></ZoomEndTime>
+      <Cursor1Time time="210000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/Circuit_SA1_tb2/A" type="logic">
+      <obj_property name="ElementShortName">A</obj_property>
+      <obj_property name="ObjectShortName">A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/A_tb" type="logic">
+      <obj_property name="ElementShortName">A_tb</obj_property>
+      <obj_property name="ObjectShortName">A_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/B" type="logic">
+      <obj_property name="ElementShortName">B</obj_property>
+      <obj_property name="ObjectShortName">B</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/B_tb" type="logic">
+      <obj_property name="ElementShortName">B_tb</obj_property>
+      <obj_property name="ObjectShortName">B_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/C" type="logic">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/C_tb" type="logic">
+      <obj_property name="ElementShortName">C_tb</obj_property>
+      <obj_property name="ObjectShortName">C_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/F0" type="logic">
+      <obj_property name="ElementShortName">F0</obj_property>
+      <obj_property name="ObjectShortName">F0</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/F1" type="logic">
+      <obj_property name="ElementShortName">F1</obj_property>
+      <obj_property name="ObjectShortName">F1</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t0" type="logic">
+      <obj_property name="ElementShortName">t0</obj_property>
+      <obj_property name="ObjectShortName">t0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t1" type="logic">
+      <obj_property name="ElementShortName">t1</obj_property>
+      <obj_property name="ObjectShortName">t1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t2" type="logic">
+      <obj_property name="ElementShortName">t2</obj_property>
+      <obj_property name="ObjectShortName">t2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t3" type="logic">
+      <obj_property name="ElementShortName">t3</obj_property>
+      <obj_property name="ObjectShortName">t3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t4" type="logic">
+      <obj_property name="ElementShortName">t4</obj_property>
+      <obj_property name="ObjectShortName">t4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t5" type="logic">
+      <obj_property name="ElementShortName">t5</obj_property>
+      <obj_property name="ObjectShortName">t5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t6" type="logic">
+      <obj_property name="ElementShortName">t6</obj_property>
+      <obj_property name="ObjectShortName">t6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t7" type="logic">
+      <obj_property name="ElementShortName">t7</obj_property>
+      <obj_property name="ObjectShortName">t7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t8" type="logic">
+      <obj_property name="ElementShortName">t8</obj_property>
+      <obj_property name="ObjectShortName">t8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t9" type="logic">
+      <obj_property name="ElementShortName">t9</obj_property>
+      <obj_property name="ObjectShortName">t9</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t10" type="logic">
+      <obj_property name="ElementShortName">t10</obj_property>
+      <obj_property name="ObjectShortName">t10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t11" type="logic">
+      <obj_property name="ElementShortName">t11</obj_property>
+      <obj_property name="ObjectShortName">t11</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/t12" type="logic">
+      <obj_property name="ElementShortName">t12</obj_property>
+      <obj_property name="ObjectShortName">t12</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Circuit_SA1_tb2/s1" type="logic">
+      <obj_property name="ElementShortName">s1</obj_property>
+      <obj_property name="ObjectShortName">s1</obj_property>
+   </wvobject>
+</wave_config>

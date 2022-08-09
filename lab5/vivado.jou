@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Aug  8 17:17:55 2022
+# Process ID: 2008
+# Current directory: C:/Xilinx/Verification_Projects/Stuck_at_Fault_Detection/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3888 C:\Xilinx\Verification_Projects\Stuck_at_Fault_Detection\lab5\lab5.xpr
+# Log file: C:/Xilinx/Verification_Projects/Stuck_at_Fault_Detection/lab5/vivado.log
+# Journal file: C:/Xilinx/Verification_Projects/Stuck_at_Fault_Detection/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+
+open_project C:/Xilinx/Verification_Projects/Stuck_at_Fault_Detection/lab5/lab5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Xilinx/Verification_Projects/Stuck_at_Fault_Detection/lab5/Circuit_SA1_tb2_behav1.wcfg
+source Circuit_SA1_tb2.tcl

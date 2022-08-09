@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/Circuit_SA1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Simulation_Files/Circuit_SA1_tb2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1_tb2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

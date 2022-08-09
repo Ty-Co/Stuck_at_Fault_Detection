@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Nov 30 22:10:41 2020
+# Process ID: 14728
+# Current directory: C:/Users/HotBox/Desktop/cecs361/project5/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8108 C:\Users\HotBox\Desktop\cecs361\project5\lab5\lab5.xpr
+# Log file: C:/Users/HotBox/Desktop/cecs361/project5/lab5/vivado.log
+# Journal file: C:/Users/HotBox/Desktop/cecs361/project5/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Circuit_SA1_tb2.tcl
+save_wave_config {C:/Users/HotBox/Desktop/cecs361/project5/lab5/Circuit_SA1_tb2_behav1.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/HotBox/Desktop/cecs361/project5/lab5/Circuit_SA1_tb2_behav1.wcfg
+set_property xsim.view {C:/Users/HotBox/Desktop/cecs361/project5/lab5/Circuit_SA1_tb2_behav.wcfg C:/Users/HotBox/Desktop/cecs361/project5/lab5/Circuit_SA1_tb2_behav1.wcfg} [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/HotBox/Desktop/cecs361/project5/lab5/Circuit_SA1_tb2_behav1.wcfg
+source Circuit_SA1_tb2.tcl
+close_sim

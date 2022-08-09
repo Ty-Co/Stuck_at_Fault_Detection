@@ -1,0 +1,261 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Nov 30 21:03:34 2020
+# Process ID: 17656
+# Current directory: C:/Users/HotBox/Desktop/cecs361/project5/lab5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2980 C:\Users\HotBox\Desktop\cecs361\project5\lab5\lab5.xpr
+# Log file: C:/Users/HotBox/Desktop/cecs361/project5/lab5/vivado.log
+# Journal file: C:/Users/HotBox/Desktop/cecs361/project5/lab5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 805.402 ; gain = 141.742
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 30 21:18:38 2020...
+/Circuit_SA1_tb2_behav.wcfg
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Circuit_SA1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Circuit_SA1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/Circuit_SA1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Simulation_Files/Circuit_SA1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto aa1d13c7954641c9be9a2fce18520022 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Circuit_SA1_tb_behav xil_defaultlib.Circuit_SA1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Circuit_SA1
+Compiling module xil_defaultlib.Circuit_SA1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Circuit_SA1_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav/xsim.dir/Circuit_SA1_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 30 21:04:12 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Circuit_SA1_tb_behav -key {Behavioral:sim_1:Functional:Circuit_SA1_tb} -tclbatch {Circuit_SA1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source Circuit_SA1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Circuit_SA1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 792.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top top [current_fileset]
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse C:/Users/HotBox/Desktop/cecs361/project5/Constraint_Files/lab5.xdc
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/Circuit_SA1.v" into library work [C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/Circuit_SA1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/ticker.v" into library work [C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/ticker.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/top.v" into library work [C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/top.v:1]
+[Mon Nov 30 21:08:02 2020] Launched synth_1...
+Run output will be captured here: C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Nov 30 21:09:02 2020] Launched impl_1...
+Run output will be captured here: C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Nov 30 21:10:17 2020] Launched impl_1...
+Run output will be captured here: C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292ABFA47A
+set_property PROGRAM.FILE {C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.runs/impl_1/top.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Circuit_SA1_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Circuit_SA1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/Circuit_SA1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Simulation_Files/Circuit_SA1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto aa1d13c7954641c9be9a2fce18520022 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Circuit_SA1_tb_behav xil_defaultlib.Circuit_SA1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Circuit_SA1
+Compiling module xil_defaultlib.Circuit_SA1_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Circuit_SA1_tb_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav/xsim.dir/Circuit_SA1_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 30 21:21:45 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Circuit_SA1_tb_behav -key {Behavioral:sim_1:Functional:Circuit_SA1_tb} -tclbatch {Circuit_SA1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source Circuit_SA1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Circuit_SA1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 900.738 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top Circuit_SA1_tb2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'Circuit_SA1_tb2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+"xvlog -m64 --relax -prj Circuit_SA1_tb2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Design_Files/Circuit_SA1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/Simulation_Files/Circuit_SA1_tb2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_SA1_tb2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto aa1d13c7954641c9be9a2fce18520022 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Circuit_SA1_tb2_behav xil_defaultlib.Circuit_SA1_tb2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Circuit_SA1
+Compiling module xil_defaultlib.Circuit_SA1_tb2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Circuit_SA1_tb2_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav/xsim.dir/Circuit_SA1_tb2_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 30 21:23:00 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/HotBox/Desktop/cecs361/project5/lab5/lab5.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Circuit_SA1_tb2_behav -key {Behavioral:sim_1:Functional:Circuit_SA1_tb2} -tclbatch {Circuit_SA1_tb2.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source Circuit_SA1_tb2.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Circuit_SA1_tb2_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 908.793 ; gain = 1.652
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 30 21:31:18 2020...
